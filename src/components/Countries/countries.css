@@ -3,6 +3,18 @@
     grid-template-columns: repeat(3,1fr);
     gap: 20px;
 }
+.visitedFlag{
+    display: flex;
+    flex-direction: row;
+    gap:5px;
+    list-style: none;
+    justify-content: center;
+}
+.photo{
+    width: 75px;
+    gap: 10px;
+   
+}
 
 @media (min-width:0px) and (max-width:639px) {
     .country1{
