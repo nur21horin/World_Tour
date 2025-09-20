@@ -1,0 +1,25 @@
+.country1{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+}
+
+@media (min-width:0px) and (max-width:639px) {
+    .country1{
+        grid-template-columns: repeat(1,1fr);
+    }
+}
+@media (min-width:640px) and (max-width:767px) {
+    .country1 {grid-template-columns: repeat(2,1fr);}
+    
+}
+@media (min-width:768px) and (max-width:1023px) {
+    .country1 {grid-template-columns: repeat(2,1fr);}
+    
+}
+@media (min-width:1024px) {
+    .country1{
+        grid-template-columns: repeat(3,1fr);
+    }
+    
+}
